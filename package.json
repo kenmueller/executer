@@ -1,0 +1,16 @@
+{
+	"name": "executer",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "node server",
+		"dev": "nodemon --watch server"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"socket.io": "^3.0.3"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	},
+	"private": true
+}
